@@ -10,4 +10,4 @@ const TodoTemplate = ({ children }) => {
 	);
 };
 
-export default TodoTemplate;
+export default React.memo(TodoTemplate);
